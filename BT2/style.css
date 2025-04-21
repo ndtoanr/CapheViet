@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #fdfcf9;
+    color: #3e2723;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .hero {
+    background: url('https://inkythuatso.com/uploads/thumbnails/800/2023/03/hinh-cay-ca-phe-inkythuatso-28-09-53-17.jpg') center center/cover no-repeat;
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 5px #000;
+  }
+  .hero h1 {
+    color: #fff8e1;
+  }
+  .product-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .section-title {
+    margin-bottom: 2rem;
+    color: #4e342e;
+  }
+  .bg-parallax {
+    background: url('https://cdn.pixabay.com/photo/2017/04/25/08/02/coffee-beans-2258839_1280.jpg') center center/cover no-repeat fixed;
+    color: white;
+    text-shadow: 1px 1px 5px #000;
+    padding: 100px 0;
+  }
+  .nav-link.active {
+    font-weight: bold;
+    color: #ff9800 !important;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff8e1;
+  }
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffcc80;
+  }
+  footer {
+    background-color: #3e2723;
+    color: #fbe9e7;
+  }
+  .btn-outline-primary {
+    border-color: #6d4c41;
+    color: #6d4c41;
+  }
+  .btn-outline-primary:hover {
+    background-color: #6d4c41;
+    color: white;
+  }
+  .card {
+    border-color: #d7ccc8;
+  }
+  .bg-light {
+    background-color: #f5f5f5 !important;
+  }
+  .btn-primary {
+    background-color: #6d4c41;
+    border-color: #5d4037;
+  }
+  .btn-primary:hover {
+    background-color: #5d4037;
+  }
+  .card-img-top {
+  transition: transform 0.5s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
